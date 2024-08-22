@@ -7,5 +7,5 @@ def fun(n):
             row.append(value)
         matrix.append(row)
     for row in matrix:
-        print(matrix)
+        print(row)
 fun(3)
