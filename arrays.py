@@ -6,5 +6,6 @@ def fun(n):
             value=input()
             row.append(value)
         matrix.append(row)
-    print(matrix)
+    for row in matrix:
+        print(matrix)
 fun(3)
