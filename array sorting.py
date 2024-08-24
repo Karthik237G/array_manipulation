@@ -16,6 +16,7 @@ array=[10,40,50,1,3,5]
 array.sort(reverse=True)
 print(array)
 
+#sorting a 3d array
 import numpy as np
 arr=np.array([[3,2,1],[4,5,6],[9,8,6]])
 sortarr=np.sort(arr,axis=-1)
