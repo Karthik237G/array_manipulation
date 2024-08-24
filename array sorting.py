@@ -10,3 +10,8 @@ sortarr=arra.tolist()
 sortarr.sort()
 sortarr=arr.array('i',sortarr)
 print(sortarr)
+
+#sorting in desending order
+array=[10,40,50,1,3,5]
+array.sort(reverse=True)
+print(array)
